@@ -1,0 +1,82 @@
+[
+  {
+    "playerName": "Shakib Al Hasan",
+    "PlayerCountry": "Bangladesh",
+    "PlayerType": "All-Rounder",
+    "Rating": 9.5,
+    "battingStyle": "Left-hand bat",
+    "BowlingStyle": "Slow left-arm orthodox",
+    "Price": 120000,
+    "playerImage": "https://i.ibb.co.com/4HVDhkB/Sakib.webp"
+  },
+  {
+    "playerName": "Virat Kohli",
+    "PlayerCountry": "India",
+    "PlayerType": "Batsman",
+    "Rating": 9.8,
+    "battingStyle": "Right-hand bat",
+    "BowlingStyle": "Right-arm medium",
+    "Price": 150000,
+    "playerImage": "https://i.ibb.co.com/LhRYwrKY/kohili.webp"
+  },
+  {
+    "playerName": "Joe Root",
+    "PlayerCountry": "England",
+    "PlayerType": "Batsman",
+    "Rating": 9.2,
+    "battingStyle": "Right-hand bat",
+    "BowlingStyle": "Right-arm off break",
+    "Price": 140000,
+    "playerImage": "https://i.ibb.co.com/1tdTVZVQ/root.webp"
+  },
+  {
+    "playerName": "Kane Williamson",
+    "PlayerCountry": "New Zealand",
+    "PlayerType": "Batsman",
+    "Rating": 9.3,
+    "battingStyle": "Right-hand bat",
+    "BowlingStyle": "Right-arm off break",
+    "Price": 135000,
+    "playerImage": "https://i.ibb.co.com/WpYtzt6C/kane.webp"
+  },
+  {
+    "playerName": "Ben Stokes",
+    "PlayerCountry": "England",
+    "PlayerType": "All-Rounder",
+    "Rating": 9.6,
+    "battingStyle": "Left-hand bat",
+    "BowlingStyle": "Right-arm fast-medium",
+    "Price": 145000,
+    "playerImage": "https://i.ibb.co.com/TxKG1YZy/ben-stokes.webp"
+  },
+  {
+    "playerName": "Babar Azam",
+    "PlayerCountry": "Pakistan",
+    "PlayerType": "Batsman",
+    "Rating": 9.4,
+    "battingStyle": "Right-hand bat",
+    "BowlingStyle": "Right-arm off break",
+    "Price": 138000,
+    "playerImage": "https://i.ibb.co.com/LXTRvvD6/Babar-Azam.webp"
+  },
+  {
+    "playerName": "David Warner",
+    "PlayerCountry": "Australia",
+    "PlayerType": "Batsman",
+    "Rating": 9.1,
+    "battingStyle": "Left-hand bat",
+    "BowlingStyle": "Right-arm leg break",
+    "Price": 130000,
+    "playerImage": "https://i.ibb.co.com/pvH1y6jX/David-Warner.webp"
+  },
+  {
+    "playerName": "Jasprit Bumrah",
+    "PlayerCountry": "India",
+    "PlayerType": "Bowler",
+    "Rating": 9.7,
+    "battingStyle": "Right-hand bat",
+    "BowlingStyle": "Right-arm fast",
+    "Price": 142000,
+    "playerImage": "https://i.ibb.co.com/mrcv5Mfy/Jasprit-Bumrah.webp"
+  }
+]
