@@ -8,7 +8,7 @@ const Players = ({playersPromise}) => {
  const players=use(playersPromise)
   console.log(players);
     return (
-        <div>
+        <div className='max-w-7xl mx-auto'>
            players: {players.length}
            <AvailablePlayers players={players}></AvailablePlayers>
         </div>
