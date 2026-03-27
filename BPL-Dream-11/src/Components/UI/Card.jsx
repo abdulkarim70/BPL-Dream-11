@@ -35,11 +35,23 @@ const Card = ({players, setcoin, coin}) => {
     <div className="card-actions flex justify-between items-center">
         <p className='font-semibold'>Price: ${player.Price}</p>
       <button  className="btn" onClick={() => {
-            if (!selectedPlayers.includes(player.playerName)) {
-              setSelectedPlayers([...selectedPlayers, player.playerName]);setcoin(coin-player.Price)
-            }
-          }}
-        disabled={selectedPlayers.includes(player.playerName)}>
+  if (!selectedPlayers.includes(player.playerName)) {
+    let newCoin = coin - player.Price;
+
+    if (newCoin >= 0) {
+    
+      setcoin(newCoin);
+
+   
+      setSelectedPlayers([...selectedPlayers, player.playerName]);
+
+      alert(`${player.playerName} Selected`);
+    } else {
+      alert('Not enough balance to purchase this player');
+    }
+  }
+}}
+        disabled={selectedPlayers.includes(player.playerName) }  >
           {selectedPlayers.includes(player.playerName)
             ? 'Selected'
             : 'Choose Player'}</button>
