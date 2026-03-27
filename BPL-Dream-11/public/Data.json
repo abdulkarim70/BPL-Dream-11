@@ -6,7 +6,7 @@
     "Rating": 9.5,
     "battingStyle": "Left-hand bat",
     "BowlingStyle": "Slow left-arm orthodox",
-    "Price": 120000,
+    "Price": 500,
     "playerImage": "https://i.ibb.co.com/4HVDhkB/Sakib.webp"
   },
   {
@@ -16,7 +16,7 @@
     "Rating": 9.8,
     "battingStyle": "Right-hand bat",
     "BowlingStyle": "Right-arm medium",
-    "Price": 150000,
+    "Price": 600,
     "playerImage": "https://i.ibb.co.com/LhRYwrKY/kohili.webp"
   },
   {
@@ -26,7 +26,7 @@
     "Rating": 9.2,
     "battingStyle": "Right-hand bat",
     "BowlingStyle": "Right-arm off break",
-    "Price": 140000,
+    "Price": 700,
     "playerImage": "https://i.ibb.co.com/1tdTVZVQ/root.webp"
   },
   {
@@ -46,7 +46,7 @@
     "Rating": 9.6,
     "battingStyle": "Left-hand bat",
     "BowlingStyle": "Right-arm fast-medium",
-    "Price": 145000,
+    "Price": 400,
     "playerImage": "https://i.ibb.co.com/TxKG1YZy/ben-stokes.webp"
   },
   {
@@ -56,7 +56,7 @@
     "Rating": 9.4,
     "battingStyle": "Right-hand bat",
     "BowlingStyle": "Right-arm off break",
-    "Price": 138000,
+    "Price": 850,
     "playerImage": "https://i.ibb.co.com/LXTRvvD6/Babar-Azam.webp"
   },
   {
@@ -66,7 +66,7 @@
     "Rating": 9.1,
     "battingStyle": "Left-hand bat",
     "BowlingStyle": "Right-arm leg break",
-    "Price": 130000,
+    "Price": 750,
     "playerImage": "https://i.ibb.co.com/pvH1y6jX/David-Warner.webp"
   },
   {
@@ -76,7 +76,7 @@
     "Rating": 9.7,
     "battingStyle": "Right-hand bat",
     "BowlingStyle": "Right-arm fast",
-    "Price": 142000,
+    "Price": 650,
     "playerImage": "https://i.ibb.co.com/mrcv5Mfy/Jasprit-Bumrah.webp"
   }
 ]

@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaFlag, FaUser } from 'react-icons/fa';
-const Card = ({players}) => {
-    
+const Card = ({players, setcoin, coin}) => {
+    const [selectedPlayers, setSelectedPlayers] = useState([]);
+  
     return (
         
 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
@@ -33,7 +34,15 @@ const Card = ({players}) => {
     
     <div className="card-actions flex justify-between items-center">
         <p className='font-semibold'>Price: ${player.Price}</p>
-      <button className="btn">Choose Player</button>
+      <button  className="btn" onClick={() => {
+            if (!selectedPlayers.includes(player.playerName)) {
+              setSelectedPlayers([...selectedPlayers, player.playerName]);setcoin(coin-player.Price)
+            }
+          }}
+        disabled={selectedPlayers.includes(player.playerName)}>
+          {selectedPlayers.includes(player.playerName)
+            ? 'Selected'
+            : 'Choose Player'}</button>
     </div>
   </div>
 </div>
