@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaFlag, FaUser } from 'react-icons/fa';
 const Card = ({players, setcoin, coin, sselectedPlayers, ssetselectedPlayers}) => {
-    const [selectedPlayers, setSelectedPlayers] = useState([]);
+   
   
     return (
         
@@ -34,28 +34,28 @@ const Card = ({players, setcoin, coin, sselectedPlayers, ssetselectedPlayers}) =
     
     <div className="card-actions flex justify-between items-center">
         <p className='font-semibold'>Price: ${player.Price}</p>
-      <button  className="btn" onClick={() => {
-  if (!selectedPlayers.includes(player.playerName)) {
-    let newCoin = coin - player.Price;
+    <button
+  className="btn"
+  onClick={() => {
+    if (!sselectedPlayers.some(p => p.playerName === player.playerName)) {
 
-    if (newCoin >= 0) {
-    
-      setcoin(newCoin);
+      let newCoin = coin - player.Price;
 
-   
-      setSelectedPlayers([...selectedPlayers, player.playerName]);
-
-      alert(`${player.playerName} Selected`);
-      ssetselectedPlayers([...sselectedPlayers, player])
-    } else {
-      alert('Not enough balance to purchase this player');
+      if (newCoin >= 0) {
+        setcoin(newCoin);
+        ssetselectedPlayers([...sselectedPlayers, player]);
+        alert(`${player.playerName} Selected`);
+      } else {
+        alert('Not enough balance');
+      }
     }
-  }
-}}
-        disabled={selectedPlayers.includes(player.playerName) }  >
-          {selectedPlayers.includes(player.playerName)
-            ? 'Selected'
-            : 'Choose Player'}</button>
+  }}
+  disabled={sselectedPlayers.some(p => p.playerName === player.playerName)}
+>
+  {sselectedPlayers.some(p => p.playerName === player.playerName)
+    ? 'Selected'
+    : 'Choose Player'}
+</button>
     </div>
   </div>
 </div>

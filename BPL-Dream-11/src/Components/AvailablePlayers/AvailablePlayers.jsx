@@ -1,14 +1,18 @@
 import React from 'react';
 
 import Card from '../UI/Card';
-const AvailablePlayers = ({players, setcoin, coin, sseletedPlayers, ssetselectedPlayers}) => {
+const AvailablePlayers = ({ players, setcoin, coin, sselectedPlayers, ssetselectedPlayers }) => {
 
     return (
         <div className=''>
-<Card players={players} setcoin={setcoin} coin={coin} sseletedPlayers={sseletedPlayers} ssetselectedPlayers={ssetselectedPlayers}  ></Card>
- 
+            <Card 
+                players={players} 
+                setcoin={setcoin} 
+                coin={coin} 
+                sselectedPlayers={sselectedPlayers} 
+                ssetselectedPlayers={ssetselectedPlayers} 
+            />
         </div>
     );
 };
-
 export default AvailablePlayers;
